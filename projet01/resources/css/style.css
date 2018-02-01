@@ -1,0 +1,151 @@
+body {
+  font-family: sans-serif;
+  margin:0;
+  background-color: #f3f3f3;
+}
+
+/* Cette sectinon permet d'éditer la haut de la page*/
+.top {
+  height: 50px;
+}
+
+.topul {
+  background-color: #333333;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.topli {
+  float:right;
+}
+
+.topli a {
+  color: white;
+  display: block;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.topli a:hover:not(.active) {
+  background-color: #111;
+}
+
+/* Cette sectinon permet d'éditer la barre de navigation du haut */
+#home{
+  border-right: 2px solid #fff;
+  
+}
+.topnavul {
+  background-color: #f3f3f3;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  padding-left: 15%;
+}
+
+.topnavli {
+  float: left
+}
+
+.topnavul {
+
+}
+
+.topnavli a {
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  color: #000;
+  display: block;
+  padding: 15% 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.topnavli a:hover {
+  background-color: #bbbbbb;
+}
+
+.topmid{
+  height: 1px;
+}
+
+/* Cette sectinon permet d'éditer la barre de navigation du côté */
+.sidenave{
+  background-color: #f3f3f3;
+}
+
+.sideul {
+  background-color: #f3f3f3;
+  height: 100%;
+  list-style-type: none;
+  margin: 0;
+  overflow: auto;
+  padding: 0;
+  position: fixed;
+  width: 15%;
+}
+.sideli a {
+  color: #000;
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.sideli a:hover:not(.active) {
+  background-color: #eaeaea;
+}
+
+#active {
+  background: #bbbbbb;
+}
+
+/* Cette sectinon permet d'éditer la zone de message */
+.main {
+  background-color: #fff;
+  width: 90%;
+  height: 560px;
+  margin: auto;
+}
+
+.message {
+    padding-left: 12%;
+}
+
+input[type=text], select, textarea {
+  border: none;
+  border-bottom: 1px solid #f3f3f3;
+  margin: 10px;
+  padding: 15px;
+  width: 95%;
+}
+
+.messageCourriel {
+  font-family: sans-serif;
+  height: 250px;
+}
+
+/* Permet de cacher le 'x' (clear) dans les input sur Edge */
+input[type=text]::-ms-clear {
+  display: none;
+  height: 0;
+  width : 0;
+}
+
+/* Permet de cacher l'option resize sur Firefox*/
+textarea {
+    resize: none;
+}
+
+input[type=submit] {
+  border: none;
+  background-color: #f3f3f3;
+  padding: 12px 20px;
+}
+
+input[type=submit]:hover {
+background-color: #bbbbbb;
+}
