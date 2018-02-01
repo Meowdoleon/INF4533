@@ -36,7 +36,7 @@ body {
 /* Cette sectinon permet d'éditer la barre de navigation du haut */
 #home{
   border-right: 2px solid #fff;
-  
+
 }
 .topnavul {
   background-color: #f3f3f3;
@@ -113,6 +113,7 @@ body {
 
 .message {
     padding-left: 12%;
+    background: ../picture/watermark.png;
 }
 
 input[type=text], select, textarea {
