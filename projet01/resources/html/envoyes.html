@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <htlm>
   <head>
-    <title>Composer</title>
+    <title>Envoyés</title>
 
     <meta charset="utf-8">
     <meta name="description" content="Projet du cours INF4533">
     <meta name="author" content="">
 
     <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/messageStyle.css">
 
   </head>
   <body>
@@ -16,41 +17,32 @@
         <li class="topli"><a href="" title="Nom d'utilisateur">Nom d'utilisateur</a></li>
         <li class="topli"><a href="" title="Aide">Aide</a></li>
         <li class="topli"><a href="" title="Paramètres">Paramètres</a></li>
-        <li class="topli" id="home"><a href="reception.html" title="accueil">Accueil</a></li>
+        <li class="topli" id="home"><a href="reception.html" title="Accueil">Accueil</a></li>
       </ul>
     </div>
-
     <div class="topnav">
       <ul class="topnavul">
-        <li class="topnavli" id="active"><a href="composer.html" title="Composer">Composer</a></li>
+        <li class="topnavli"><a href="composer.html" title="Composer">Composer</a></li>
       </ul>
     </div>
-
     <div class="topmid"></div>
-
     <div class="sidenav">
       <ul class="sideul">
         <li class="sideli"><a href="reception.html" title="Boîte de réception">Boîte de réception</a></li>
         <li class="sideli"><a href="brouillons.html" title="Brouillons">Brouillons</a></li>
-        <li class="sideli"><a href="envoyes.html" title="Éléments envoyés">Éléments envoyés</a></li>
+        <li class="sideli" id="active"><a href="envoyes.html" title="Éléments envoyés">Éléments envoyés</a></li>
         <li class="sideli"><a href="supprimes.html" title="Éléments supprimés">Éléments supprimés</a></li>
         <br>
         <li class="sideli"><a href="contacts.html" title="Contacts">Contacts</a></li>
       </ul>
     </div>
-
     <div class="main">
-      <!--Cette section est unique à la page "composer.html" -->
       <div class="liste">
-        <form method="post" enctype="text/plain">
-          <input type="text" name="deCourriel" placeholder="De : ">
-          <input type="text" name="aCourriel" placeholder="À :">
-          <input type="text" name="objetCourriel" placeholder="Ajouter un objet">
-          <textarea class="messageCourriel" name="messageCourriel" placeholder="Ajouté un message"></textarea>
-          <input type="submit" value="Envoyer" >
-        </form>
+
+      </div>
+      <div class="message">
+
       </div>
     </div>
-
   </body>
 </htlm>

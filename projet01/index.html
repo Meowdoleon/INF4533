@@ -1,42 +1,24 @@
 <!DOCTYPE html>
-<htlm>
+<html>
   <head>
-    <title>Titre</title>
+    <title>Connexion</title>
 
     <meta charset="utf-8">
     <meta name="description" content="Projet du cours INF4533">
-    <meta name="author" content="Hugo B. Lapointe">
+    <meta name="author" content="">
 
-    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
-
+  <link rel="stylesheet" type="text/css" href="resources/css/indexStyle.css">
   </head>
   <body>
-    <div class="top">
-      <ul class=topul>
-        <li class="topli"><a href="index.html" title="Nouveau">Nom d'utilisateur</a></li>
-        <li class="topli"><a href="index.html" title="Nouveau">Aide</a></li>
-        <li class="topli"><a href="index.html" title="Nouveau">Paramètres</a></li>
-        <li class="topli" id="home" style="float:left"><a href="index.html" title="accueil">Accueil</a></li>
-      </ul>
-    </div>
-    <div class="topnav">
-      <ul class="topnavul">
-        <li class="topnavli"><a href="resources/html/composer.html" title="composer">Composer</a></li>
-      </ul>
-    </div>
-    <div class="topmid"></div>
-    <div class="sidenav">
-      <ul class="sideul">
-        <li class="sideli" id="active"><a href="index.html" title="Nouveau">Boîte de réception</a></li>
-        <li class="sideli"><a href="index.html" title="Nouveau">Brouillons</a></li>
-        <li class="sideli"><a href="index.html" title="Nouveau">Éléments envoyés</a></li>
-        <li class="sideli"><a href="index.html" title="Nouveau">Éléments supprimés</a></li>
-      </ul>
-    </div>
-    <div class="main">
-      <div class="message">
-
+    <form class="connexion" action="resources/html/reception.html">
+      <div class="boiteConnexion">
+        <p><img src="resources/img/avatar.jpg" alt="avatar"></p>
+        <label><b>Connexion</b></label>
+        <br><br>
+        <label>Utiliser votre clé publique</label>
+        <input type="text" placeholder="Entrer clé publique" name="uname">
+        <button type="submit">Se connecter</button>
       </div>
-    </div>
+    </form>
   </body>
-</htlm>
+</html>
