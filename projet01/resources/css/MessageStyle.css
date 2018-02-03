@@ -1,0 +1,15 @@
+.liste {
+    padding-left: 12%;
+    background-color: #fff;
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+.message {
+  background-color: #fff;
+  width: 44%;
+  float: right;
+  height: 100%;
+  border-left: 3px solid #f3f3f3;
+}
