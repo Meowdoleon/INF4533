@@ -1,15 +1,15 @@
 .liste {
-    padding-left: 12%;
-    background-color: #fff;
-    width: 40%;
-    height: 100%;
-    float: left;
+  background-color: #fff;
+  float: left;
+  height: 100%;
+  padding-left: 12%;
+  width: 27%;
 }
 
 .message {
   background-color: #fff;
-  width: 44%;
+  border-left: 3px solid #bbbbbb;
   float: right;
   height: 100%;
-  border-left: 3px solid #f3f3f3;
+  width: 60%;
 }

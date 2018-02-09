@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chargement</title>
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" href="../css/chargementStyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/indexStyle.css">
+  </head>
+  <body onload="myFunction()" style="margin:0;">
+      <div id="loader"></div>
+    <script>
+      var myVar;
+
+      function myFunction() {
+        myVar = setTimeout(showPage, 1000);
+      }
+
+      function showPage() {
+         window.open("reception.html","_self");
+      }
+    </script>
+  </body>
+</html>

@@ -1,20 +1,22 @@
 body {
+  background-color: #f3f3f3;
   font-family: sans-serif;
   margin:0;
-  background-color: #f3f3f3;
 }
 
 /* Cette sectinon permet d'éditer la haut de la page*/
 .top {
   height: 50px;
+  position: fixed;
+  width: 100%;
 }
 
 .topul {
   background-color: #333333;
   list-style-type: none;
   margin: 0;
-  padding: 0;
   overflow: hidden;
+  padding: 0;
 }
 
 .topli {
@@ -38,6 +40,16 @@ body {
   border-right: 2px solid #fff;
   float: left;
 }
+
+#utilisateur {
+  width: 200px;
+}
+.topnav {
+  position: fixed;
+  top: 50px;
+  width: 100%;
+}
+
 .topnavul {
   background-color: #f3f3f3;
   list-style-type: none;
@@ -49,10 +61,6 @@ body {
 
 .topnavli {
   float: left
-}
-
-.topnavul {
-
 }
 
 .topnavli a {
@@ -76,6 +84,7 @@ body {
 /* Cette sectinon permet d'éditer la barre de navigation du côté */
 .sidenave{
   background-color: #f3f3f3;
+  position: fixed;
 }
 
 .sideul {
@@ -86,8 +95,10 @@ body {
   overflow: auto;
   padding: 0;
   position: fixed;
+  top: 100px;
   width: 15%;
 }
+
 .sideli a {
   color: #000;
   display: block;
@@ -106,15 +117,17 @@ body {
 /* Cette sectinon permet d'éditer la zone de message */
 .main {
   background-color: #fff;
-  width: 90%;
-  height: 800px;
+  height: 550px;
   margin: auto;
+  margin-left: 15%;
+  margin-top: 100px;
+  width: 80%;
 }
 
 .liste {
-    padding-left: 12%;
-    background-color: #fff;
-    height: 100%;
+  background-color: #fff;
+  height: 100%;
+  padding-left: 12%;
 }
 
 input[type=text], select, textarea {
@@ -139,12 +152,12 @@ input[type=text]::-ms-clear {
 
 /* Permet de cacher l'option resize sur Firefox*/
 textarea {
-    resize: none;
+  resize: none;
 }
 
 input[type=submit] {
-  border: none;
   background-color: #f3f3f3;
+  border: none;
   padding: 12px 20px;
 }
 

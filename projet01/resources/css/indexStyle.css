@@ -2,7 +2,7 @@
 body{
   background-color: #f3f3f3;
   font-family: sans-serif;
-  padding-top: 10%;
+  padding-top: 50px;
 }
 
 .connexion {
@@ -13,7 +13,7 @@ body{
 }
 
 .boiteConnexion {
-  height: 500px;
+  height: 450px;
   padding: 50px;
 }
 
@@ -23,6 +23,7 @@ p {
 
 img {
   height: 150px;
+  width: 150px;
 }
 
 input[type=text] {
@@ -40,8 +41,8 @@ button {
   border: none;
   cursor: pointer;
   float: right;
-  padding: 15px 20px;
-  width: 30%;
+  padding: 15px 10px;
+  width: 40%;
 }
 
 button:hover {

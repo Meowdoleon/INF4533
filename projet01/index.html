@@ -2,27 +2,26 @@
 <html>
   <head>
     <title>Connexion</title>
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
 
     <meta charset="utf-8">
     <meta name="description" content="Projet du cours INF4533">
-    <meta name="author" content="Hugo B. Lapointe & Alex Lebeau">
-
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
-
+    <meta name="author" content="">
 
   <link rel="stylesheet" type="text/css" href="resources/css/indexStyle.css">
-  </head>
 
+  <script type="text/javascript" src="resources/js/script.js"></script>
+  </head>
   <body>
-    <form class="connexion" action="resources/html/reception.html">
+    <!-- <form class="connexion" action="resources/html/chargement.html"> -->
+      <form class="connexion" action="resources/html/chargement.html">
       <div class="boiteConnexion">
         <p><img src="resources/img/avatar.jpg" alt="avatar"></p>
         <label><b>Connexion</b></label>
         <br><br>
         <label>Utiliser votre clé publique</label>
-        <input type="text" placeholder="Entrer clé publique" name="uname">
-        <button type="submit">Se connecter</button>
+        <input id="clePubblique" type="text" placeholder="Entrer clé publique" name="uname">
+        <button type="submit" onclick="x">Se connecter</button>
       </div>
     </form>
   </body>
